@@ -266,8 +266,8 @@ convertToMeters(16)
 And it did! Now try this out for yourself. Turn the Ruby method below into a JavaScript function. If you get stuck, take a look at the solution at the end of this document.
 
 ```ruby
-def convert_to_fahrenheit(celsious=0)
-  celsious *  9/5 + 32
+def convert_to_fahrenheit(celsius=0)
+  celsius *  9/5 + 32
 end
 ```
 
@@ -279,21 +279,21 @@ end
 
 ## Solution
 
-Here's the Ruby method that converts Celsious to Fahrenheit:
+Here's the Ruby method that converts Celsius to Fahrenheit:
 
 ```ruby
-def convert_to_fahrenheit(celsious=0)
-  celsious *  9/5 + 32
+def convert_to_fahrenheit(celsius=0)
+  celsius *  9/5 + 32
 end
 ```
 
-Here's the JavaScript method that converts Celsious to Fahrenheit:
+Here's the JavaScript method that converts Celsius to Fahrenheit:
 
 ```javascript
-function convertToFahrenheit(celsious) {
-  if (typeof(celsious) === "undefined") {
-    var celsious = 0;
+function convertToFahrenheit(celsius) {
+  if (typeof(celsius) === "undefined") {
+    var celsius = 0;
   }
-  return celsious *  9/5 + 32;
+  return celsius *  9/5 + 32;
 }
 ```
