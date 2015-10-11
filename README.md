@@ -180,7 +180,7 @@ end
 
 Now let's make it a JavaScript function!
 
-The first step is to change the `def` keyword into a `function` keyword. The next step is to change the method's name, which is in snake case, into lower camelCase. The thrid step will be to change the `end` keyword into an ending curly brace and add a beginning curly brace after the argument, like so:
+The first step is to change the `def` keyword into a `function` keyword. The next step is to change the method's name, which is in snake case, into lower camelCase. The third step will be to change the `end` keyword into an ending curly brace and add a beginning curly brace after the argument, like so:
 
 ```javascript
 function convertToMeters(feet) {
